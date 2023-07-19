@@ -8,12 +8,15 @@ import { Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App fade-in">
+      <section>
         <Header />
+      </section>
+      <div className="App fade-in">
         <Routes>
-          {" "}
-          <Route exact path="/" component={Home} />{" "}
+          <Route exact path="/" component={Home} />
         </Routes>
+        <h1>Here!</h1>
+        
       </div>
     </Router>
   );
@@ -21,7 +24,7 @@ function App() {
 
 export default App;
 
-{
+
   /* <div id="intro">
         <h1>Alex Pieroni</h1>
         <h3>Trinty College of Arts and Sciences, Duke University 2025</h3>
@@ -231,4 +234,4 @@ export default App;
           </ul>
         </div>
       </div> */
-}
+
