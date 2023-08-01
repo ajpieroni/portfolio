@@ -1,5 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --oxford-blue: #011638;
+    --charcoal: #364156;
+    --silver: #CDCDCD;
+    --honeydew: #DFF8EB;
+    --dark-green: #47682C;
+    --sans-serif: 'Raleway', sans-serif;
+    --serif: 'Poltawski Nowy', serif;
+  }
+  
+
+
 .App {
   text-align: center;
+  /* background-color: var(--honeydew); */
+
 }
 
 .App-logo {

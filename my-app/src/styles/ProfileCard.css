@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+:root {
+  --oxford-blue: #011638;
+  --charcoal: #364156;
+  --silver: #cdcdcd;
+  --honeydew: #dff8eb;
+  --dark-green: #47682c;
+  --sans-serif: "Raleway", sans-serif;
+  --serif: "Poltawski Nowy", serif;
+}
+
+.ProfileCard {
+  font-family: "DM Serif Display";
+  background-color: red;
+}
+
+
+#im-alex-text {
+  font-family: var(--sans-serif);
+  font-size: 85%;
+}
+#profile img {
+  width: 400px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+  height: auto;
+}
+
+#text-wrapper {
+  position: relative;
+  display: inline-block; /* Ensure the text container takes the width of the text */
+}
+
+/* Add these styles to your ProfileCard.css or create a new CSS file */
+.intro-card-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Center align the text */
+  padding: 20px;
+  font-family: var(--serif);
+  background-color: var(--oxford-blue);
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#intro-card-text {
+  padding-right: 10px;
+  height: 5vw;
+  display: inline; /* Display the text as inline */
+}
+
+#im-alex-text {
+  font-family: var(--sans-serif);
+  font-size: 85%;
+}
+
+.cursor {
+  position: absolute;
+  top: 0;
+  right: -0.3em;
+  width: 0.05em;
+  height: 1em;
+  background-color: white;
+  animation: blinkCursor 1s infinite;
+}
+
+@keyframes blinkCursor {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
