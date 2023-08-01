@@ -10,13 +10,18 @@ import Landing from "./pages/Landing";
 import ProfileCard from "./components/ProfileCard";
 
 function App() {
+
+  
   return (
+    <div className="app">
+
     <Router>
       <Routes>
         <Route path="/" element={<Landing />}>
         </Route>
       </Routes>
     </Router>
+    </div>
   );
 }
 

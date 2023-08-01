@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
+
 :root {
   --oxford-blue: #011638;
   --charcoal: #364156;
@@ -16,17 +17,17 @@
   background-color: red;
 }
 
-
 #im-alex-text {
   font-family: var(--sans-serif);
   font-size: 85%;
 }
 #profile img {
-  width: 400px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-
+  width: 350px;
   height: auto;
+  /* margin-right: 50px; */
+  /* padding: 100px;
+   */
+   margin: 50px;
 }
 
 #text-wrapper {
@@ -57,22 +58,54 @@
   font-family: var(--sans-serif);
   font-size: 85%;
 }
-
-.cursor {
-  position: absolute;
-  top: 0;
-  right: -0.3em;
-  width: 0.05em;
-  height: 1em;
-  background-color: white;
-  animation: blinkCursor 1s infinite;
+.intro-buttons {
+  /* background-color: red; */
+  justify-content: center;
+  display: flex;
 }
 
-@keyframes blinkCursor {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+#linkedin {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 24px; /* Adjust the font size as per your design */
+  font-weight: bold; /* Optionally set font weight if needed */
+  color: white; /* Adjust the text color as per your design */
+  border: 2px solid white;
+  padding: 10px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+#linkedin:hover {
+  background-color: #cdcdcd98;
+}
+#github {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 24px; /* Adjust the font size as per your design */
+  font-weight: bold; /* Optionally set font weight if needed */
+  color: white; /* Adjust the text color as per your design */
+  border: 2px solid white;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  background-color: transparent;
+}
+#github:hover {
+  background-color: #cdcdcd98;
+}
+#resume {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 24px; /* Adjust the font size as per your design */
+  font-weight: bold; /* Optionally set font weight if needed */
+  color: white; /* Adjust the text color as per your design */
+  border: 2px solid white;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  background-color: transparent;
+}
+#resume:hover {
+  background-color: #cdcdcd98;
 }

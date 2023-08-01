@@ -13,6 +13,7 @@
   }
   
 .landing-wrapper{
-    background-color: var(--honeydew);
+    background-color: var(--dark-green);
     min-height: 100vh;
+    transition: opacity 1s ease; /* Define the transition duration and timing function */
 }

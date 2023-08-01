@@ -43,13 +43,13 @@ export default function ProfileCard() {
         <div id="text-wrapper">
           <div id="intro-card-text">{`${greetings[currentGreetingIndex].slice(0, currentCharacterIndex)}`}</div>
           {/* <div className="cursor"></div> */}
-          <div id="im-alex-text"> Alex Pieroni</div>
+          <div id="im-alex-text"> Alexander J. Pieroni</div>
         </div>
       </div>
       <div className="intro-buttons">
-        <button>LinkedIn</button>
-        <button>GitHub</button>
-        <button>Resume</button>
+        <button id="linkedin">LinkedIn</button>
+        <button id="github">GitHub</button>
+        <button id="resume">Resume</button>
       </div>
     </>
   );

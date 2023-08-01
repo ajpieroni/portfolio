@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
+import "../styles/Header.css";
 // import "./styles/main.css"
 
 function Header() {
   return (
-    <header id="header">
-      <a href="index.html" className="logo">
-        GET CURIOUS.
-      </a>
-    </header>
+    <div className="header-wrapper">
+      <header id="header">
+        <a href="/" className="logo">
+          GET CURIOUS.
+        </a>
+      </header>
+    </div>
   );
 }
 
